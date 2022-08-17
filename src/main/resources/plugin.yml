@@ -1,0 +1,13 @@
+name: TipOfTheDay
+version: '${project.version}'
+main: com.github.dimitrivasiliadis.tipoftheday.TipOfTheDay
+api-version: 1.19
+authors: [ dimitrivasiliadis ]
+description: Information giver for new players to learn server features.
+commands:
+    tip:
+      description: fetch tips
+      usage: /<command>
+      aliases:
+        - totd
+        - news
